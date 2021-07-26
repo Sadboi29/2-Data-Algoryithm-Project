@@ -1,4 +1,6 @@
-# Algorithms Project: The Big Heist
+# Project: The Big Heist
+
+# For the Concordia Univerity's Data Science Boot Camp 
 
 ![bank robbers](./assets/bank-robbers.jpg)
 <p style="text-align:right;line-height:0;"><a href='https://www.freepik.com/vectors/background'>Bank robbers vector created by vectorpocket - www.freepik.com</a></p>
@@ -63,23 +65,5 @@ robber_algorithm(df)
 
 You can use the `check_solution` function from `utils/check_solution.py` to test the validity of your solution and obtain a _score_.
 
-## Hints
-
-- Most of the design paradigms we saw in class will work for this. Start with something that's easier (brute-force or greedy algorithm) and then work towards a better design once it works.
-    - Divide-and-conquer
-    - Brute Force
-    - Greedy Algorithm
-    - Dynamic Programming
-    - Backtracking
-    - Breadth-first & Depth-first search
-    - Some we haven't seen:
-        - Branch & Bound
-        - Prune & Search
-- Because there are too many banks at each step, you will need to select only some candidates to explore.
-- If you find yourself doing many **Nearest neighbors** type queries, consider using a [KD-Tree](https://en.wikipedia.org/wiki/K-d_tree) or a Ball Tree to speed it up.
-- There are good implementations of KD-Trees and nearest neighbours in scipy, sklearn and [this library](https://github.com/lmcinnes/pynndescent)
-- You can work your algorithm backwards (starting at the end and backing up to the starting point) or forwards (finding a starting point and looping until there is no time left). They will lead to different designs however
-
----
 
 ![](https://media2.giphy.com/media/l41K160KBZgAxhhG8/200.gif)
